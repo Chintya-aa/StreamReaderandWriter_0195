@@ -13,5 +13,10 @@ int main(){
 
     cout << ">= Menulis file, \'q\' untuk keluar" << endl;
 
+    //unlimited lopp untuk menulis
+    while (true) {
+        cout << "- ";
+        // Mendapatkan setiap karakter dalam satu baris
+    }
 }
 
