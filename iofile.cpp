@@ -23,7 +23,14 @@ int main(){
         // menulis dan memasukkan nilai dari 'baris' ke dalam file
         outfile << baris << endl;
     }
-    //selesai dalam menulis sekarangntutup filenya
+    //selesai dalam menulis sekarang tutup filenya
     outfile.close();
+
+    // Membuat objek input file stream
+    ifstream infile;
+    // Membuka file yang di tuliskan
+    infile.open("contohfile.txt");
+
+    
 }
 
