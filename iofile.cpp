@@ -8,6 +8,10 @@ int main(){
 
     //membuat objek output file stream.
     ofstream outfile;
-    
+    // membuka file untuk ditulis.
+    outfile.open("contohfile.txy");
+
+    cout << ">= Menulis file, \'q\' untuk keluar" << endl;
+
 }
 
